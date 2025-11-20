@@ -31,7 +31,7 @@
         <module name="MissingJavadocType">
             <property name="scope" value="public"/>
             <property name="skipAnnotations"
-                      value="SpringBootApplication, Component, Configuration, Controller, Service, Repository, RestController"/>
+                      value="SpringBootApplication, Component, Configuration, Controller, Service, Repository, RestController, Entity"/>
         </module>
 
         <module name="MissingJavadocMethod">
@@ -46,7 +46,6 @@
         <module name="TypeName"/>
         <module name="ParameterName"/>
 
-        <module name="AvoidStarImport"/>
         <module name="EmptyBlock"/>
         <module name="EqualsHashCode"/>
         <module name="IllegalInstantiation"/>
