@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: fpl-ai-recommender
+  datasource:
+    url: jdbc:postgresql://localhost:5432/fpl
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+  main:
+    banner-mode: "off"
+
+logging:
+  level:
+    root: INFO
