@@ -39,11 +39,19 @@ public class Team {
     @Column(name = "created_at", updatable = false)
     private LocalDateTime createdAt;
 
+    /**
+     * Add a player to the team.
+     * @param player player to add
+     */
     public void addPlayer(Player player) {
         players.add(player);
         player.setTeam(this);
     }
 
+    /**
+     * Remove a player from the team.
+     * @param player player to remove
+     */
     public void removePlayer(Player player) {
         players.remove(player);
         player.setTeam(null);
@@ -58,3 +66,4 @@ public class Team {
                 '}';
     }
 }
+
