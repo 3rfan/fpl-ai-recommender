@@ -49,6 +49,9 @@ pnpm-debug.log*
 # --- Python scraper outputs (when added) ---
 data/raw/
 data/processed/__pycache__/
+data/*.csv
+data/*.json
+!data/.gitkeep
 __pycache__/
 *.pyc
 
@@ -63,3 +66,8 @@ logs/
 # --- Misc ---
 .env
 /Instructions.md
+/implementation_plan.md
+/QUICKSTART.md
+/DAY1_COMPLETION_SUMMARY.md
+/IMPLEMENTATION_STATUS.md
+/dev/
