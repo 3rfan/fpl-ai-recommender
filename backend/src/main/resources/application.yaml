@@ -5,9 +5,9 @@ spring:
   application:
     name: fpl-ai-recommender
   datasource:
-    url: jdbc:postgresql://localhost:5432/fpl
+    url: jdbc:postgresql://localhost:5433/fpl
     username: postgres
-    password: postgres
+    password: '0000'
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
